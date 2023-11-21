@@ -62,7 +62,7 @@ jobs:
          env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          with:
-          tag_name: TWRP_3.7.0
+          tag_name: twrp-9.0
           name: TWRP-pokerp
           files: | 
             work/out/target/product/pokerp/recovery.img
